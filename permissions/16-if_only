@@ -1,2 +1,5 @@
 #!/bin/bash
-if [ "$(stat -c %U /tmp/hello)" = "guillaume" ]; then chown vincent /tmp/hello; fi
+if [ "$(stat -c %U /tmp/hello)" = "guillaume" ]
+then
+    chown vincent /tmp/hello
+fi
