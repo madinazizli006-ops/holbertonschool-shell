@@ -1,2 +1,2 @@
 #!/bin/bash
-if ["$(stat -c %U /tmp/hello)"="guillaume"]; then chown vincent /tmp/hello; fi
+chown --from=guillaume vincent /tmp/hello
